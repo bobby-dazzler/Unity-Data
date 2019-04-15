@@ -1,3 +1,10 @@
-﻿{
-	"name": "Unity-Data"
+{
+    "name": "Unity-Data",
+    "references": [
+        "UnityEventsFrameworkAssembly"
+    ],
+    "optionalUnityReferences": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false
 }

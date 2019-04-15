@@ -15,6 +15,10 @@ public class UnityDataReader {
 		return reader.ReadSingle();
 	}
 
+	public string ReadString () {
+		return reader.ReadString();
+	}
+
 	public int ReadInt() {
 		return reader.ReadInt32();
 	}

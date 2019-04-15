@@ -15,6 +15,10 @@ public class UnityDataWriter {
 		writer.Write(value);
 	}
 
+	public void Write (string value) {
+		writer.Write(value);
+	}
+
 	public void Write (int value) {
 		writer.Write(value);
 	}
