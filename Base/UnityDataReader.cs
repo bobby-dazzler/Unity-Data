@@ -39,4 +39,8 @@ public class UnityDataReader {
 		value.z = reader.ReadSingle();
 		return value;
 	}
+
+	public bool ReadBool() {
+		return reader.ReadBoolean();
+	}
 }

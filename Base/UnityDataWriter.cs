@@ -35,4 +35,8 @@ public class UnityDataWriter {
 		writer.Write(value.y);
 		writer.Write(value.z);
 	}
+
+	public void Write (bool value) {
+		writer.Write(value);
+	}
 }
