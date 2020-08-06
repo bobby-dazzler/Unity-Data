@@ -32,6 +32,13 @@ public class UnityDataReader {
 		return value;
 	}
 
+	public Vector2 ReadVector2 () {
+		Vector2 value;
+		value.x = reader.ReadSingle();
+		value.y = reader.ReadSingle();
+		return value;
+	}
+
 	public Vector3 ReadVector3 () {
 		Vector3 value;
 		value.x = reader.ReadSingle();

@@ -36,6 +36,11 @@ public class UnityDataWriter {
 		writer.Write(value.z);
 	}
 
+	public void Write (Vector2 value) {
+		writer.Write(value.x);
+		writer.Write(value.y);
+	}
+
 	public void Write (bool value) {
 		writer.Write(value);
 	}
